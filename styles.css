@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, rgb(252, 115, 156) 0%, rgb(179, 172, 197) 64%);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 200px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+/* Corrected the styling for select, input, button */
+select, input, button {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    font-size: 20px;
+}
+
+button, input[type="submit"] {
+    background-color: #af4c8c;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #c1206e;
+}
+
+/* Corrected the styling for #add-book-form and #order-book-form */
+#add-book-form, #order-book-form, #delete-book-form, #update-book-form {
+    display: none;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    font-size: 20px;
+}
+
+#view-all-books {
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
