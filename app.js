@@ -131,3 +131,5 @@ app.put('/books/update/:updateBookId', (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
+
+// writing all the CRUD§ operations for the bookstore app
